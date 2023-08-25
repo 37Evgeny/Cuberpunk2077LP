@@ -1,0 +1,63 @@
+header {
+    max-width: 1920px;
+    height: 1000px;
+    background-image: url(../../img/Header/backgound__img__header.jpg);
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.logo__image {
+    width: 295.991px;
+    height: 73.489px;
+    flex-shrink: 0;
+    padding-left: 320px;
+}
+
+.soc {
+    padding-right: 320px;
+}
+
+.soc__link {
+    padding-left: 40px
+}
+
+.bg__yelloy {
+    
+    width: 624px;
+    height: 369px;
+    background-image: url(../../img/Header/yelloy__backgroun.svg);
+    margin-left: 976px;
+    margin-top: 534px;
+
+}
+
+.bg__yelloy__p {
+    color: #000;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 70px 70px 173px 70px;
+}
+
+.header__btn{
+    display: inline-flex;
+padding: 19px 50px;
+align-items: center;
+gap: 10px;
+background-color: #000;
+color: #F8F200;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+}
