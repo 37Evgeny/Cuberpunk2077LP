@@ -1,0 +1,81 @@
+.buy__games{
+    display: flex;
+}
+.buy__games__left__img{
+    width: 944px;
+height: 717px;
+}
+.buy__games__right__container{
+    padding-top: 70px;
+    padding-left: 32px;
+    background: #000;
+width: 976px;
+height: 717px;
+}
+.buy__games__right__h4{
+width: 624px;
+    margin: 0px;
+    color: #FFF;
+font-family: Archangelsk;
+font-size: 62px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 25px;
+}
+.buy__games__right__complect{
+    margin: 0px;
+    color: #52BEDC;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.complect__list__img{
+    width: 32px;
+height: 32px;
+flex-shrink: 0;
+margin-right: 5px;
+}
+.complect__list__p{
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+align-items: center;
+}
+.games__platforma{
+    margin-top: 70px;
+    color: #52BEDC;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.platforms__container{
+    margin-top: 25px;
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.xbox{
+    margin-left: 79px;
+}
+.ps4{
+    margin-left: 80px;
+    margin-top: 55.53px;
+}
+.stadia{
+    margin-top: 47.81px;
+}
