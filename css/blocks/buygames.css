@@ -1,81 +1,205 @@
-.buy__games{
+.buy__games {
     display: flex;
 }
-.buy__games__left__img{
+
+.buy__games__left__img {
     width: 944px;
-height: 717px;
+    height: 717px;
 }
-.buy__games__right__container{
+
+.buy__games__right__container {
     padding-top: 70px;
     padding-left: 32px;
     background: #000;
-width: 976px;
-height: 717px;
+    width: 976px;
+    height: 717px;
 }
-.buy__games__right__h4{
-width: 624px;
+
+.buy__games__right__h4 {
+    width: 624px;
     margin: 0px;
     color: #FFF;
-font-family: Archangelsk;
-font-size: 62px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-bottom: 25px;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 25px;
 }
-.buy__games__right__complect{
+
+.buy__games__right__complect {
     margin: 0px;
     color: #52BEDC;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.complect__list__img{
+
+.complect__list__img {
     width: 32px;
-height: 32px;
-flex-shrink: 0;
-margin-right: 5px;
+    height: 32px;
+    flex-shrink: 0;
+    margin-right: 5px;
 }
-.complect__list__p{
+
+.complect__list__p {
     color: #FFF;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-display: flex;
-align-items: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
 }
-.games__platforma{
+
+.games__platforma {
     margin-top: 70px;
     color: #52BEDC;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.platforms__container{
+
+.platforms__container {
     margin-top: 25px;
     display: flex;
 }
-.left{
+
+.left {
     display: flex;
     flex-direction: column;
 }
-.right{
+
+.right {
     display: flex;
     flex-direction: column;
 }
-.xbox{
+
+.xbox {
     margin-left: 79px;
 }
-.ps4{
+
+.ps4 {
     margin-left: 80px;
     margin-top: 55.53px;
 }
-.stadia{
+
+.stadia {
     margin-top: 47.81px;
+}
+
+@media (max-width: 1024px) {
+    .buy__games{
+        display: flex;
+    }
+
+    .buy__games__left{
+        position: relative;
+        overflow: hidden;
+        width: 332px;
+        height: 717px;
+    }
+
+    .buy__games__left__img {
+        width: 332px;
+        height: 717px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        object-fit: cover;
+    }
+    
+    .buy__games__right__container {
+        padding-top: 70px;
+        padding-left: 32px;
+        background: #000;
+        width: 692px;
+        height: 717px;
+    }
+    
+    .buy__games__right__h4 {
+        width: 624px;
+        margin: 0px;
+        color: #FFF;
+        font-family: Archangelsk;
+        font-size: 62px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 25px;
+    }
+    
+    .buy__games__right__complect {
+        margin: 0px;
+        color: #52BEDC;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .complect__list__img {
+        width: 32px;
+        height: 32px;
+        flex-shrink: 0;
+        margin-right: 5px;
+    }
+    
+    .complect__list__p {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+    }
+    
+    .games__platforma {
+        margin-top: 70px;
+        color: #52BEDC;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .platforms__container {
+        margin-top: 25px;
+        display: flex;
+    }
+    
+    .left {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .right {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .xbox {
+        margin-left: 79px;
+    }
+    
+    .ps4 {
+        margin-left: 80px;
+        margin-top: 55.53px;
+    }
+    
+    .stadia {
+        margin-top: 47.81px;
+    }
+    
+
 }

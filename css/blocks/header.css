@@ -61,3 +61,37 @@ font-style: normal;
 font-weight: 700;
 line-height: 40px;
 }
+
+/* Планшеты */
+@media (max-width: 1024px){
+    header {
+        max-width: 1024px;
+        background-position: center;
+    }
+    
+    .logo__header {
+        width: 295.991px;
+        height: 73.489px;
+        flex-shrink: 0;
+        margin-left: 32px;
+    }
+    
+    .soc {
+        padding-right: 36px;
+    }
+    
+    .soc__link {
+        padding-left: 40px
+    }
+    
+    .bg__yelloy {
+        
+        width: 624px;
+        height: 369px;
+        background-image: url(../../img/Header/yelloy__backgroun.svg);
+        margin-left: 364px;
+        margin-top: 538px;
+    
+    }
+    
+}
