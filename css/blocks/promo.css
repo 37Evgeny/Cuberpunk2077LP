@@ -1,10 +1,8 @@
 .promo {
-    padding-left: 320px;
-    /* padding-top: 15px; */
     margin-top: -3px;
-    background-color: black;
+    background:#000;
     width: 1920px;
-    padding-bottom: 70px;
+    padding: 70px 320px;
 }
 
 .promo__img {
@@ -14,7 +12,7 @@
 }
 
 .promo__h2 {
-    padding-top: 25px;
+    padding-top: 50px;
     padding-left: 32px;
     color: #FFF;
     font-family: Archangelsk;
@@ -129,7 +127,6 @@
     margin-top: 35px;
     margin-bottom: 15px;
     display: inline-flex;
-    height: 59px;
     padding: 15px 50px;
     align-items: center;
     gap: 10px;

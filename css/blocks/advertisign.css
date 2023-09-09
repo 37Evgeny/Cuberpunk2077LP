@@ -1,8 +1,8 @@
 .advertising {
     width: 1920px;
-    height: 676px;
+    max-height: 676px;
     margin-top: -3px;
-    padding: 70px 320px;
+    padding: 70px 320px 70px;
     background: #F8F200;
 }
 
@@ -24,9 +24,8 @@
 }
 
 .logo {
-    width: 319.991px;
-    height: 79.448px;
-    flex-shrink: 0;
+    width: 320px;
+    height: 79px;
     margin-left: 140px;
 }
 
@@ -65,7 +64,6 @@
 
 .advertising__button__btn {
     display: inline-flex;
-    height: 59px;
     padding: 15px 50px;
     align-items: center;
     gap: 10px;
@@ -85,9 +83,7 @@
 .p__img {
     width: 32px;
     height: 32px;
-    flex-shrink: 0;
     padding-right: 5px;
-
 }
 
 .advertising__ul__p {

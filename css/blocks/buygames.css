@@ -2,9 +2,10 @@
     display: flex;
 }
 
-.buy__games__left__img {
+.buy__games__left{
     width: 944px;
-    height: 717px;
+height: 717px;
+background: cove;
 }
 
 .buy__games__right__container {
