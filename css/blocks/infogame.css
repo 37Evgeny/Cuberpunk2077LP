@@ -1,0 +1,37 @@
+.infogames{
+    background-image: url(../../img/Header/yelloy__backgroun.svg);
+    max-width: 624px;
+    max-height: 369px;
+    background-repeat: no-repeat;
+    padding: 70px 70px 173px 70px;
+}
+.infogames{
+    margin-top: -370px;
+    margin-left: 976px;
+    position: relative;
+}
+.span__platforms {
+    max-width: 484px;
+    color: #000;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn{
+    margin-top: 25px ;
+    background: #000;
+    color: #F8F200;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 166.667% */
+    display: inline-flex;
+    padding: 19px 50px;
+    align-items: center;
+    gap: 10px;
+}
+

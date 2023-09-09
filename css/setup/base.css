@@ -13,11 +13,7 @@ body{
     box-sizing: inherit;
 }
 
-a{
-    color:currentColor;
-}
-
-.visually-hidden{
+.visual-container{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -29,3 +25,15 @@ a{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.container{
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    box-sizing: content-box;
+}
+@font-face {
+    font-family: Archangelsk;
+    src: url(./Archangelsk.ttf); /* Для IE5-8 */
+    src: local(Archangelsk), url(./Archangelsk.ttf); /* Для остальных браузеров */
+   }
+
