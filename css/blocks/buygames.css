@@ -1,18 +1,19 @@
 .buy__games {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .buy__games__left{
 width: 50%;
 }
-
-.buy__games__right__container {
-    padding-top: 70px;
-    padding-left: 32px;
+.buy__games__right{
+    width: 50%;
+    padding: 70px 0px 70px 32px;
     background: #000;
-    width: 976px;
-    height: 717px;
 }
+/* .buy__games__right__container {
+   
+} */
 
 .buy__games__right__h4 {
     width: 624px;

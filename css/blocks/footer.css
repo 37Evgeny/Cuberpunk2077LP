@@ -1,13 +1,18 @@
-.footer__comtainer {
+/* .footer__comtainer {
     display: flex;
     align-items: center;
     justify-content: ;
-    width: 1920px;
-    height: 100px;
+    max-width: 1920px;
+    min-height: 100px;
+    flex-wrap: wrap;
     margin-top: 13px;
     margin-right: 321px;
+} */
+.footer__comtainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-
 .text__left {
     margin-right: 32px;
     color: #000;
@@ -25,6 +30,7 @@
 .footer__right {
     padding-left: 391px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .text__right {

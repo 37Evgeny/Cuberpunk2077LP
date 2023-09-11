@@ -1,15 +1,19 @@
+.info__game{
+    display: flex;
+}
 .infogames{
     background-image: url(../../img/Header/yelloy__backgroun.svg);
     background-repeat: no-repeat;
     padding: 70px 70px 70px 70px;
 }
+
 .infogames{
     display: flex;
     flex-direction: column;
     margin-top: -373px;
-    margin-left: 656px;
+    margin-left: 43%;
     align-items: start;
-    position: relative;
+    position: absolute;
 }
 .span__platforms {
     margin: 0px;

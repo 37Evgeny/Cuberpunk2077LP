@@ -1,5 +1,4 @@
 .advertising {
-    max-height: 676px;
     margin-top: -3px;
     background: #F8F200;
     padding: 70px 0px;
@@ -7,6 +6,7 @@
 
 .advertising__block {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .advertising__img__monitor {

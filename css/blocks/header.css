@@ -7,15 +7,14 @@
 }
 .container__header{
     display: flex;
-    max-width: 1280px;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 20px;
 }
 .soc {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    margin-left: 620px;
 }
 .soc__link:not(:last-child){
     margin-right: 42px;

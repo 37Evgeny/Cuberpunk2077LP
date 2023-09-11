@@ -1,7 +1,7 @@
 .promo {
     margin-top: -3px;
     background:#000;
-    padding: 70px
+    padding: 70px;
 }
 
 .promo__img {
@@ -23,6 +23,10 @@
 
 .promo__div {
     display: flex;
+   flex-wrap: wrap;
+}
+.img__promo{
+    position: absolute;
 }
 
 
@@ -30,7 +34,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../img/Promo/Vector.svg);
     width: 132px;
     height: 132px;
     transform: rotate(-45deg);
@@ -43,7 +46,7 @@
 }
 
 .promo__text__p {
-    width: 952px;
+   max-width: 952px;
     color: #FFF;
     font-family: Roboto;
     font-size: 18px;
@@ -65,7 +68,9 @@
 .promo__data {
     /* padding-top: 90px; */
     display: flex;
+    flex-wrap: wrap;
 }
+
 .promo__form__group{
     margin-top: 98px;
 }
@@ -196,27 +201,27 @@
   .promo__xbox__img{
     position: relative;
     margin-left: 164px;
-    width: 296px;
-    height: 351px;
+    max-width: 296px;
+max-height: 351px;
   }
 
  .promo__xbox__fon{
-    width: 460px;
-    height: 456px;
+    max-width: 460px;
+    max-height: 456px;
 margin-left: 32px;
 position: absolute;
 }
 
 .promo__ps__img{
     position: relative;
-    width: 296px;
-height: 351px;
+    max-width: 296px;
+max-height: 351px;
 }
 
 .promo__ps__fon{
     transform: scale(1, -1); 
-    width: 460px;
-height: 456px;
+    max-width: 460px;
+    max-height: 456px;
 margin-left: -130px;
 position: absolute;
 }
@@ -224,7 +229,7 @@ position: absolute;
 .prize__console{
     display: flex;
     position: absolute;
-    padding-left: 476px;
+    /* padding-left: 476px; */
     padding-top: 70px;
 }
 
