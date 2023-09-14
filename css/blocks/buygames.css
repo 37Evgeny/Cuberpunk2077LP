@@ -93,3 +93,12 @@ width: 50%;
     margin-top: 47.81px;
 }
 
+@media ( max-width: 1024px){
+    .buy__games__left{
+        width: 33%;
+    }
+    .buy__games__right{
+        width: 67%;
+    }
+}
+
