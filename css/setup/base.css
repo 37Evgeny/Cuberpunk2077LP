@@ -32,11 +32,16 @@ body{
     height: 100%;
     box-sizing: content-box;
     overflow: hidden;
-    
 }
 @font-face {
     font-family: Archangelsk;
     src: url(./Archangelsk.ttf); /* Для IE5-8 */
     src: local(Archangelsk), url(./Archangelsk.ttf); /* Для остальных браузеров */
+   }
+
+   @media(max-width: 1024px){
+    .container{
+        max-width: 952px;
+    }    
    }
 

@@ -45,7 +45,7 @@
 .footer__bottom {
     display: flex;
     justify-content: center;
-    width: 1920px;
+    max-width: 1920px;
     height: 40px;
     background: #000;
     align-items: center;
@@ -59,4 +59,20 @@
     font-weight: 400;
     line-height: normal;
     align-items: center;
+}
+
+@media ( max-width: 1024px){
+    .footer__comtainer{
+        justify-content: space-between;
+    }
+    .footer__left{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer__right{
+        padding: 0px;
+    }
+    .footer__bottom{
+
+    }
 }

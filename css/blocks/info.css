@@ -1,6 +1,6 @@
 .info {
-   margin-top: 70px;
-    
+    margin-top: 70px;
+
 }
 
 .info__h1 {
@@ -62,4 +62,39 @@
     padding-left: 32px;
     max-width: 788px;
     max-height: 424px;
+}
+
+@media(max-width: 1024px) {
+    .info__h1 {
+        max-width: 620px;
+        margin: 0px;
+    }
+
+    .info__p {
+        max-width: 788px;
+        max-height: 158px;
+        margin-top: 25px;
+    }
+
+    .info__img {
+        flex-direction: column;
+    }
+
+    .info__img__left {
+        flex-direction: row;
+    }
+
+    .info__img__left__one {
+        margin-right: 32px;
+        flex: 1;
+    }
+
+    .info__img__right {
+        padding: 0px;
+        margin-bottom: 70px;
+    }
+    .info__img__right__pic{
+        width: 952px;
+    }
+
 }
