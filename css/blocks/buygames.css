@@ -3,9 +3,10 @@
     flex-wrap: wrap;
 }
 
-.buy__games__left{
-width: 50%;
+    .buy__games__left{
+    width: 50%;
 }
+
 .buy__games__right{
     width: 50%;
     padding: 70px 0px 70px 32px;
@@ -99,6 +100,11 @@ width: 50%;
     }
     .buy__games__right{
         width: 67%;
+    }
+    .buy__games__left{
+        object-fit: cover;
+        left: 0;
+        top:  0;
     }
 }
 
