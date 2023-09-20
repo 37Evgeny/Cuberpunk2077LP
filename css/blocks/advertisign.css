@@ -148,3 +148,43 @@
         max-height: 192px;
     }
 }
+@media(max-width: 320px){
+    .advertising__block{
+        flex-direction: column;
+    }
+    .advertising__img__logo{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+  .advertising__left{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .hp{
+    width: 44px;
+    height: 44px;
+  }
+  .logo{
+    width: 175px;
+    height: 44px;
+    padding: 0px;
+  }
+   .advertising__h__h3{
+        font-size: 30px;
+        width: 296px;
+        margin-top: 40px;
+   }
+   .advertising__p__text{
+    font-size: 16px;
+    height: 100%;
+    margin-top: 20px;
+   }
+   .advertising__ul{
+    margin-top: 27px;
+   }
+   .advertising__ul__p{
+    font-size: 16px;
+   }
+}

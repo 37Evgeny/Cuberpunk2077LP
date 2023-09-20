@@ -96,5 +96,45 @@
     .info__img__right__pic{
         width: 952px;
     }
+}
 
+@media(max-width: 320px){
+    .info__h1{
+        margin-top: 70px;
+        font-size: 30px;
+        width: 296px;
+    }
+    .info__span{
+        font-size: 16px;
+    }
+    .info__p{
+        font-size: 16px;
+        width: 296px;
+        max-height: 373px;
+    }
+
+    .info__img{
+        margin-top: 70px;
+    }
+    .info__img__left{
+        
+        margin-left: -12px;
+        flex-direction: column; 
+    }
+    .info__img__left__one{
+        width: 320px;
+        height: 196px;
+    }
+    .info__img__left__two{
+        width: 320px;
+        height: 196px;
+    }
+
+    .info__img__right__pic{
+        object-fit: none;
+        margin-top: 32px;
+        margin-left: -12px;
+        width: 320px;
+        height: 424px;
+    }
 }
