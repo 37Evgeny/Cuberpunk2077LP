@@ -319,6 +319,100 @@ position: absolute;
 
 }
 
+@media(max-width: 390px){
+    .promo__promo{
+        flex-direction: column;
+        max-width: 100%;
+        height: 1001px;
+    }
+    .img__promo{
+        width: 62px;
+        height: 62px;
+    }
+    
+    .promo__div__p{
+        width: 36px;
+        height: 15px;
+        font-size: 14px;
+    }
+
+    .promo__h2{
+        font-size: 30px;
+        width: 296px;
+        padding-top: 200px;
+        position: absolute;
+
+    }
+    .promo__text__p{
+        width: 296px;
+        height: 213px;
+    }
+    .promo__div{
+        width: 296px;
+    }
+    .promo__input{
+        font-size: 16px;
+    }
+    .drag__drop{
+        width: 296px;
+        height: 120px;
+    }
+    .promo__prize{
+        width: 296px;
+    }
+    .promo__xbox__img{
+        max-width: 85px;
+        max-height: 101px;
+        margin: 0px  0px 0px 47px;;
+      }
+    
+     .promo__xbox__fon{
+        max-width: 132px;
+        max-height: 131px;
+        margin: 0px
+    }
+    
+    .promo__ps__img{
+        max-width: 85px;
+        max-height: 101px;
+        margin-left: -120px;
+        margin-top: -50px;
+    }
+    
+    .promo__ps__fon{
+        max-width: 132px;
+        max-height: 131px;
+        margin-top: -50px;
+      
+    }
+    .promo__left__right{
+        flex-direction: column;
+    }
+    .promo__prize{
+       flex-direction: row;
+       margin: 0px;
+       align-items: center;
+    }
+    .promo__data{
+        margin-top: -950px;
+    }
+    /* .promo__promo{
+        margin-top: 300px;
+    } */
+    .promo__text__p{
+        margin-top: 200px;
+    }
+    
+    .promo__div__p{
+        margin-left: 10px;
+        margin-top: 18px;
+       position: relative;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    
+}
 @media(max-width: 320px){
     .promo__promo{
         flex-direction: column;

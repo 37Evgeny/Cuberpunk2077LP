@@ -71,6 +71,43 @@
     }
    }
 
+   @media(max-width: 390px){
+    .infogames{
+       min-width: 390px;
+        min-height: 207px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: -15px;
+        margin-top: -157px;
+        justify-content: center;
+        align-items: center;
+    }
+    .span__platforms {
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+        max-width: 295px;
+        font-size: 30px;
+        margin-top: 30px;
+        /* margin-left: 13px; */
+    }
+    .btn{
+        align-items: center;
+        text-align: center;
+        margin-top: 35px ;
+        background: #000;
+        color: #F8F200;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 20x;
+        /* margin-left: 38px; */
+        margin-bottom: 30px;
+        max-width: 244px;
+        max-height: 60px;
+    }
+   }
+
+
    @media(max-width: 320px){
     .infogames{
        min-width: 320px;
