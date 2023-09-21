@@ -108,6 +108,55 @@
     }
 }
 
+@media(max-width: 390px){
+        .buy__games{
+            flex-direction: column;
+        }
+        .buy__games__left{
+            width: 390px;
+            height: 198px;
+        }
+        .buy__games__right{
+            width: 100%;
+            padding: 0px;
+        }
+        .buy__games__right__h4{
+            font-size: 30px;
+            margin: 40px 12px 25px 12px;
+        }
+        .buy__games__right__complect{
+            font-size: 20px;
+            margin: 0px 121px 22px 12px;
+        }
+        .complect__list{
+            margin-left: 12px; 
+            margin-right: 12px;
+            font-size: 16px;  
+        }
+        .games__platforma{
+            font-size: 20px;
+            margin: 40px 53px 25px 12px;
+        }
+        .left{
+            margin: 0px 56px 70px 12px;
+        }
+        .right{
+            margin: 0px 12px 77px 0px;
+        }
+        .xbox{
+            margin: 0px;
+            width: 178px;
+            height: 35.188px;
+        }
+        .ps4{
+            margin: 0px;
+            width: 168.627px;
+            height: 35.324px;
+            margin-top: 49px;
+        }
+    
+    }
+    
 @media (max-width: 320px){
     .buy__games{
         flex-direction: column;
