@@ -1,5 +1,5 @@
 .promo {
-    margin-top: -4px;
+    margin-top: -5px;
     background:#000;
     padding: 70px;
 }
@@ -206,20 +206,20 @@
     position: relative;
     margin-left: 164px;
     max-width: 296px;
-max-height: 351px;
+    max-height: 351px;
   }
 
  .promo__xbox__fon{
     max-width: 460px;
     max-height: 456px;
-margin-left: 32px;
-position: absolute;
+    margin-left: 32px;
+    position: absolute;
 }
 
 .promo__ps__img{
     position: relative;
     max-width: 296px;
-max-height: 351px;
+    max-height: 351px;
 }
 
 .promo__ps__fon{
